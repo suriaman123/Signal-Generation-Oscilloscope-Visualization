@@ -1,4 +1,4 @@
-# Assignment 6: by Aman and Vikas
+# Signal-Generation-Oscilloscope-Visualization by Aman
 
 import pyvisa
 import time
@@ -8,18 +8,18 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtCore import QThread, pyqtSignal
 from matplotlib.backends.backend_qt5agg import FigureCanvas
 from matplotlib.figure import Figure
-from assignment6_gui import assignment6_ui
+from SGOV_gui import sgov_ui
 
 import numpy as np
 
 
-class assignment6(QMainWindow):    
+class SGOV(QMainWindow):    
                  
     
     def __init__(self):         
 
         super().__init__()       
-        self.ui = assignment6_ui()                          
+        self.ui = sgov_ui()                          
         self.ui.setupUi(self)   
 
         self.canvas = FigureCanvas(Figure())
@@ -79,7 +79,7 @@ class assignment6(QMainWindow):
 
 
 app = QApplication([])
-window = assignment6()
+window = SGOV()
 window.show()
 app.exec_()
 
