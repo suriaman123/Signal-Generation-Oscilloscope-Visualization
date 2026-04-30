@@ -16,4 +16,4 @@ This project is a PyQt5-based desktop application that interfaces with a functio
 - PyVISA – communication with lab instruments
 -NumPy – numerical data processing
 
-![Image description](C:\Users\suria\Desktop\Semester 1\CBMC)
+![Image description](sine_function_generated.png)
