@@ -16,4 +16,5 @@ This project is a PyQt5-based desktop application that interfaces with a functio
 - PyVISA – communication with lab instruments
 -NumPy – numerical data processing
 
-![Image description](sine_function_generated.png)
+![Sine Function Generated.](sine_function_generated.png)
+![Square Function Generated.](square_function_generated.png)
