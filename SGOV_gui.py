@@ -11,7 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class assignment6_ui(object):
+class sgov_ui(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(896, 667)
