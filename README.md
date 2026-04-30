@@ -15,3 +15,4 @@ PyQt5 – GUI framework
 Matplotlib – signal plotting
 PyVISA – communication with lab instruments
 NumPy – numerical data processing
+![Image description](C:\Users\suria\Desktop\Semester 1\CBMC)
