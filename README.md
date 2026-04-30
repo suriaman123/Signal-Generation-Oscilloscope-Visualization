@@ -1,7 +1,7 @@
 # Signal-Generation-Oscilloscope-Visualization
 This project is a PyQt5-based desktop application that interfaces with a function generator and an oscilloscope using PyVISA. It allows users to configure waveform parameters, acquire measured data from the oscilloscope, and visualize the signal in real time using Matplotlib.
 
-Features
+##Features
 Configure waveform type (sine, square, etc.)
 Set frequency, amplitude, and DC offset
 Control a function generator via SCPI commands
